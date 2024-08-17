@@ -4,10 +4,10 @@ class App extends React.Component{
     render(){
         return (
             <div>
-                this is app component
+                this is app
             </div>
         )
     }
 }
 
-export default App();
+export default App;
