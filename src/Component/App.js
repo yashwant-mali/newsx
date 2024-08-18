@@ -1,22 +1,29 @@
 import React from 'react';
 import Footer from './Footer';
-import Home from './Home';
-import About from './About';
-import AddNews from './AddNews';
+import Home from './FooterComp/Home';
+import About from './FooterComp/About';
+import AddNews from './FooterComp/AddNews';
 import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
+import Notification from './HeaderComp/Notification';
+import Profile from './HeaderComp/Profile';
+
 
 class App extends React.Component {
     render() {
         return (
             <div >
-                <Header/>
+                <div>
+                <Header/></div>
                 <Footer />
                 <div>
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/about" element={<About />} />
+                        <Route  path="/about" element={<About />} />
                         <Route path="/addnews" element={<AddNews />} />
+                        <Route path="/notification" element={<Notification />} />
+                        <Route path="/profile" element={<Profile />} />
+
 
                     </Routes>
                 </div>

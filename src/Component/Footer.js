@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-import './FooterCSS.css'; // Import a CSS file to style your footer
+import './FooterComp/FooterCSS.css'; // Import a CSS file to style your footer
 
 
 
