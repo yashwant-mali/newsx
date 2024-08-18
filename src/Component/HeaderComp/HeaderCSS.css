@@ -1,0 +1,33 @@
+.header {
+    background-color: #d6cbcb;
+    color: #fdfafa;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    left: 0;
+    top: 0;  /* Position at the top */
+    width: 100%;
+    z-index: 1000;  /* Keep the header on top of other content */
+    height: 50px;  /* Set the height of the header */
+    box-sizing: border-box;
+}
+body {
+    padding-top: 50px;  /* Equal to the header height */
+    padding-left: 10px;
+}
+
+  .header-content a:hover {
+    text-decoration: underline;
+  }
+
+  .header-content a {
+    color: #28079c;
+    text-decoration: none;
+    margin: 0 10px;
+
+  }
+
+  
+
+
+
