@@ -7,6 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Notification from './HeaderComp/Notification';
 import Profile from './HeaderComp/Profile';
+import Register from './Register';
 
 
 class App extends React.Component {
@@ -23,6 +24,7 @@ class App extends React.Component {
                         <Route path="/addnews" element={<AddNews />} />
                         <Route path="/notification" element={<Notification />} />
                         <Route path="/profile" element={<Profile />} />
+                        <Route path="/register" element={<Register/>}/>
 
 
                     </Routes>
